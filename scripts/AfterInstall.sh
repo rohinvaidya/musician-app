@@ -1,5 +1,5 @@
 #!/bin/bash
 set -e
 cd /usr/share/nginx/html
-npm install
-npm run build
+sudo npm install
+sudo npm run build /musician-app/client
