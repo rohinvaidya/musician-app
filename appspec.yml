@@ -6,8 +6,8 @@ files:
     overwrite: true
 hooks:
   BeforeInstall:
-    - location: scripts/BeforeInstallHook.sh
+    - location: scripts/BeforeInstall.sh
       timeout: 300
   AfterInstall:
-    - location: scripts/AfterInstallHook.sh
+    - location: scripts/AfterInstall.sh
       timeout: 300
